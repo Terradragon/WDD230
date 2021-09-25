@@ -1,0 +1,8 @@
+@media only screen and (min-width: 32.5em){
+    img{
+        float: right;
+        padding-right: 100px;
+        padding-top: 0px;
+        padding-bottom: 190px;
+    }
+}
