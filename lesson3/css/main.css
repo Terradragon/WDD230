@@ -54,17 +54,6 @@ a:hover{
     color:#000000;
 }
 
-/*Target Audience*/
-
-.persona-1{
-    border-radius: .5rem;
-    box-shadow:lightslategray;
-}
-
-.persona-2{
-    border: solid,lightslategray;
-}
-
 
 /*Typography*/
 .frame{
@@ -78,11 +67,11 @@ a:hover{
 }
 
 .headings{
-    font-family: "Merriweather", sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 .paragraphs{
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 footer{
     background-color: rgb(112, 99, 192);
@@ -92,6 +81,7 @@ footer{
     text-align: center;
 }
 
+/*Images*/
 .Johnimage{
     text-align: center;
 }
