@@ -1,0 +1,102 @@
+body{
+    background-color: ivory;
+    font-size: 3em;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background-color: rgb(112, 99, 192);
+    text-align: center;
+    font-size: 1rem;
+    padding: 7px;
+}
+main{
+    font-size: 1rem;
+    padding: 1rem;
+}
+nav ul li{
+    display: block;
+    background-color: rgb(141, 126, 151);
+    text-align: center;
+    padding: 1rem;
+}
+
+nav a{
+    font-size: 1rem;
+    color:rgb(188, 222, 235);
+    text-decoration: none;
+}
+
+a:hover{
+    color:lightgreen;
+}
+
+/*Color Scheme*/
+.background{
+    color: #361B35;
+}
+
+.title{
+    color:#D9A408;
+}
+
+.nav-bar{
+    color:#954B93;
+}
+
+.head1{
+    color:#F7C326;
+}
+
+.head2{
+    color:#000000;
+}
+
+/*Target Audience*/
+
+.persona-1{
+    border-radius: .5rem;
+    box-shadow:lightslategray;
+}
+
+.persona-2{
+    border: solid,lightslategray;
+}
+
+
+/*Typography*/
+.frame{
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+}
+
+.navigation{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+
+.headings{
+    font-family: "Merriweather", sans-serif;
+}
+
+.paragraphs{
+    font-family: "Raleway", sans-serif;
+}
+footer{
+    background-color: rgb(112, 99, 192);
+    color: black;
+    padding: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.Johnimage{
+    text-align: center;
+}
+
+.Janeimage{
+    text-align:center;
+
+}
