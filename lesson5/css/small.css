@@ -1,0 +1,109 @@
+/*Basics*/
+body{
+    background-color: #361B35;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Header*/
+header{
+    background-color:#D9A408;
+    padding: 5px 0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+/*Navigation Bar*/
+nav button {
+    margin: 0.2rem 2%;
+    font-size: 1.6rem;
+    color:#F7C326;
+    background-color:#361B35;
+    border:none;
+    
+}
+
+nav{
+    background-color: #954B93;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav ul li a{
+    display:block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #F7C326;
+    text-align: center;
+    border-top: 1px solid;
+}
+
+nav ul li.active a{
+    color:white;
+}
+
+nav ul li a:hover{
+    background-color: #361B35;
+}
+
+nav ul.hide{
+    display:none;
+}
+
+.click{
+    text-align: center;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: auto;
+  }
+
+/*Heading*/
+
+header h1{
+    color:#361B35;
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+    margin-left: 10px;
+}
+
+header h2{
+    color:#361B35;
+    font-family: 'Merriweather', serif;
+    font-size: 0.9rem;
+    margin-left: 5px;
+}
+
+main h2{
+    font-family:'Merriweather', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color:#F7C326;
+}
+
+/*logo image*/
+header img{
+    width: 80px;
+    height: auto;
+}
+
+/*footer*/
+footer{
+    background-color: #D9A408;
+    font-family:'Merriweather', serif;
+    color: black;
+    padding: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
