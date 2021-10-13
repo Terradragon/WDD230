@@ -6,6 +6,11 @@ body{
     justify-content: center;
 }
 
+section:nth-child(5){
+    margin: 0.5rem;
+    border: #fff solid 1px;
+}
+
 /*Header*/
 header{
     background-color:#D9A408;
@@ -92,13 +97,78 @@ main h2{
     color:#F7C326;
 }
 
+main p {
+    font-family: 'Raleway', sans-serif;
+    font-size:  1rem;
+    color: #D9A408; 
+    padding: .8rem;
+}
+
+/*Weather Summary*/
+.summarydiv{
+    margin: 10px auto;
+    position: relative;
+    font-size: smaller;
+}
+
+.summary{
+    background: radial-gradient(#954B93, #7e3e7c);
+    border: #ffff solid 1px;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #333;
+    opacity: .9;
+}
+
+/*Five Day Forecast*/
+
+.table, th, td{
+    position: relative;
+    left: 40px;
+    height: 100px;
+    width: 80px;
+    border: #fff solid 1px;
+    border-collapse: collapse;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    align-items: center;
+    color: #D9A408;
+}
 /*logo image*/
 header img{
     width: 80px;
-    height: auto;
+    height: 150ox;
+}
+
+/*hero image*/
+.hero img{
+    width: 530px;
+    height: 150px;
+}
+
+/*article image*/
+.article img{
+    width: 455px;
+    height: 250px;
 }
 
 /*footer*/
+footer h2, footer p{
+    color:black;
+    text-align: left;
+}
+footer h2{
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+}
+footer p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+ .map img{
+    width: 450px;
+    height: 150px;
+}
 footer{
     background-color: #D9A408;
     font-family:'Merriweather', serif;

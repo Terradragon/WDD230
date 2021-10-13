@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Preston Town Page</title>
-    <meta name="description" content="Preston Town Page">
+    <meta name="description" content="Preston Town Weather Page">
     <!--Favicon Link-->
     <link rel="shortcut icon" href="favicon.ico">
     <!--CSS Links-->
@@ -20,10 +20,12 @@
     <script defer src="js/menu.js"></script>
     <script defer src="js/year.js"></script>
     <script defer src="js/date.js"></script>
+    <script defer src="js/event.js"></script>
     </head>
     <body>
         <header>
             <!--Add Logo and Title-->
+            <div id="event"></div>
             <img src="images/WeatherCloudRainbowIcon.png" alt="logo">
             <div class="headings">
             <h1>Weather Here or There</h1>
@@ -46,16 +48,56 @@
                 <h2 class="head2">Preston Idaho</h2>
             </section>
             <section>
-                <h2 class="head2">Hero w/ Weather Summary</h2>
+                <div class="hero">
+                <img src="images/prestonidahoheroimage.jpg" alt="landscape">
+                </div>
+            </section>
+            <div class="summarydiv">
+                <section class="summary">
+                <h2>Weather Summary</h2>
+                <p>Currently:<span id="current"> Partly Cloudy</span></p>
+                <p>High:<span id="high"> 45ºF</span></p>
+                <p>Wind Chill:<span id="windc"> 31ºF</span></p>
+                <p>Humidity:<span id="humid"> 59%</span></p>
+                <p>Wind Speed:<span id="windS"> S 11mph</p>
+                </section>
+            </div>
+            <section>
+                <div class="forecast">
+                <h2>5 Day Forecast</h2>
+                <table>
+                    <tr>
+                        <th>Today</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                        <th>Sunday</th>
+                    </tr>
+                    <tr>
+                        <td>45ºF</td>
+                        <td>44ºF</td>
+                        <td>50ºF</td>
+                        <td>57ºF</td>
+                        <td>60ºF</td>
+                    </tr>
+                </table>
+                </div>
             </section>
             <section>
-                <h2 class="head2">5 Day Forecast</h2>
-            </section>
-            <section>
-                <h2 class="head2">Article</h2>
+                <h2>Article</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores iusto, itaque reiciendis soluta unde architecto ad eveniet blanditiis error delectus saepe ratione libero voluptatum incidunt voluptatibus quo beatae reprehenderit pariatur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae commodi est ea eius odit ipsa quae consequatur beatae qui id blanditiis, similique placeat sit totam aperiam illum iure officia iusto?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo inventore voluptas repellendus maiores eveniet autem nihil unde sunt officiis nobis delectus suscipit libero placeat labore, provident dolores, molestias laborum recusandae?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio provident architecto, cum quibusdam alias ab exercitationem quo ducimus a, eveniet, dolorem aliquam pariatur fugiat ipsam. Rem soluta hic autem accusantium!Nemo inventore voluptas repellendus maiores eveniet autem nihil unde sunt officiis nobis delectus suscipit libero placeat labore, provident dolores, molestias laborum recusandae?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio provident architecto, cum quibusdam alias ab exercitationem quo ducimus a, eveniet, dolorem aliquam pariatur fugiat ipsam. Rem soluta hic autem accusantium!</p>
+                <div class="article">
+                    <img src="images/articleimage.jpg" alt="photographer">
+                    </div>
             </section>
         </main>
         <footer>
+                <h2>Contact Information</h2>
+                <p>Email: weather@hereorthere.net</p>
+                <p>Phone: (1)800-135-7892</p>
+                <div class="map">
+                    <img src="images/mapimage.png" alt="google map">
+                </div>
             &copy;<span id="copyrightyear"></span> Weather Here or There | Andraya L. Goff | Georgia | BYUI Online Learning
             <div id="date"></div>
     </footer>
