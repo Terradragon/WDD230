@@ -30,42 +30,81 @@
         margin: 0.5rem;
     }
 
-    .summary{
+    .summarydiv{
         position:absolute;
-        bottom: 3px;
-        left: 30px; 
+        bottom: 7px;
+        left: 190px; 
     }
     .table, th, td{
         left: 420px;
     }
 
+    /*sections*/
+
+    .article{
+        position:relative;
+        left: 90px;
+        width: 985px;
+    }
+
+    .contact{
+        position:relative;
+        top: 5px;
+        left: 90px;
+        width: 985px;
+    }
+
+    .contact h2{
+        position:relative;
+        bottom: 5px;
+        left: 630px;
+        text-align: left;
+    }
+
+    .contact p{
+        position:relative;
+        bottom: 5px;
+        left: 630px;
+        text-align: left;
+    }
+/*Images*/
     .hero img{
-        width: 1300px;
+        position:relative;
+        left: 110px;
+        width: 1000px;
         height: 300px;
     }
 
     .article img{
-        float:right;
         position: relative;
-        bottom: 200px;
-        right: 20px;
-        width: 250px;
+        bottom: 315px;
+        left: 625px;
+        width: 350px;
         height: auto;
+        align-self:baseline;
     }
-
-    footer h2, footer p{
+    .contact img{
         position: relative;
-        bottom: 5px;
-        left: 750px;
-        text-align: left;
-    }
-
-    .map img{
-        position: relative;
-        right: 240px;
-        bottom: 100px;
+        bottom: 120px;
+        left: 20px;
         width: 500px;
         height: 300px;
     }
+/*Table*/
+    .table, th, td{
+        position: relative;
+        bottom: 20px;
 
+    }
+
+    /*Social Media Icons*/
+.fa{
+    position: relative;
+    left: 630px;
+    bottom: 150px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
 }

@@ -1,12 +1,21 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
 
+    /*banner*/
+    .banner{
+        text-align: center;
+    }
+
     .hero img{
         padding: 10px;
         width: 1050px;
         height: 200px;
     }
 
+    .article img{
+        position:relative;
+        left: 150px;
+    }
     .table, th, td{
         left: 280px;
     }

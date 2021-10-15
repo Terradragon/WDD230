@@ -6,9 +6,39 @@ body{
     justify-content: center;
 }
 
-section:nth-child(5){
-    margin: 0.5rem;
-    border: #fff solid 1px;
+/*Banner*/
+.banner__content{
+    /*background: #954B93;*/
+    color: #D9A408;
+    font-family: 'Merriweather', serif;
+    padding: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+}
+
+/*Sections*/
+
+.article{
+    background: radial-gradient(#954B93, #7e3e7c);
+    margin: 1rem;
+    border: #ffff solid 1px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #333;
+    opacity: .9;
+}
+
+.contact{
+    background: radial-gradient(#954B93, #7e3e7c);
+    margin: 1rem;
+    border: #ffff solid 1px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #333;
+    opacity: .9;
+    
 }
 
 /*Header*/
@@ -60,6 +90,15 @@ nav ul li a:hover{
 
 nav ul.hide{
     display:none;
+}
+
+ul{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end:0px;
+    padding-inline-start: 40px;
 }
 
 .click{
@@ -114,6 +153,7 @@ main p {
 .summary{
     background: radial-gradient(#954B93, #7e3e7c);
     border: #ffff solid 1px;
+    border-radius: 10px;
     padding: 1.5rem;
     box-shadow: 0 0 30px #333;
     opacity: .9;
@@ -141,33 +181,36 @@ header img{
 
 /*hero image*/
 .hero img{
-    width: 530px;
+    width: 485px;
     height: 150px;
 }
 
 /*article image*/
 .article img{
-    width: 455px;
+    position:relative;
+    right: 10px;
+    bottom: 5px;
+    width: 425px;
     height: 250px;
 }
 
-/*footer*/
-footer h2, footer p{
-    color:black;
-    text-align: left;
-}
-footer h2{
+/*Contact Information*/
+.contact h2{
     font-family: 'Merriweather', serif;
     font-size: 1.5rem;
 }
-footer p{
+
+.contact p{
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
 }
 
- .map img{
-    width: 450px;
-    height: 150px;
+/*footer*/
+.contact img{
+    position: relative;
+    right: 10px;
+    width: 425px;
+    height: 170px;
 }
 footer{
     background-color: #D9A408;
@@ -176,4 +219,29 @@ footer{
     padding: 1rem;
     font-size: 1.8rem;
     text-align: center;
+}
+
+/*Social Media Links*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
 }
