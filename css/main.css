@@ -19,17 +19,17 @@ header, main{
     text-align: center;
 }
 h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Bree Serif', serif;;
     font-size: 55px;
     background-color: rgb(112, 99, 192);
-    color:rgb(70, 70, 70);
+    color:black;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
 }
 
-h3{
+h2{
     font-family: 'Nanum Brush Script', cursive;
     font-size: 30px;
     color: black;
@@ -48,7 +48,7 @@ nav a{
 }
 
 footer{
-    font-family: sans-serif;
+    font-family: 'Bree Serif', serif;
     background-color: rgb(112, 99, 192);
     text-align: center;
     padding-top: 10px;

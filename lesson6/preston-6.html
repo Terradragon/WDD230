@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Preston Town Page</title>
+    <meta name="description" content="Preston Town Weather Page">
+    <!--CSS Links-->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <!--Google Fonts API-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <!--JavaScript Links-->
+    <script defer src="js/menu.js"></script>
+    <script defer src="js/year.js"></script>
+    <script defer src="js/date.js"></script>
+    <script defer src="js/event.js"></script>
+    <script defer src="js/windchill.js"></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <!--Social Media Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    <body onload="banner()">
+        <div class="banner__content">
+            <p id="demo"></p>
+        </div>
+
+            <header>
+                <!--Add Logo and Title-->
+                <div id="event"></div>
+                <img src="images/WeatherCloudRainbowIcon.png" alt="logo">
+                <div class="headings">
+                <h1>Weather Here or There</h1>
+                <h2>Here for You, Wherever You Are</h2>
+                </div>
+            </header>
+
+            <nav class="clearfix">
+                <div class="click"><button onclick="toggleMenu()">&#9776; Menu</button></div>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="#">Home</a></li>
+                    <li class="active"><a href="#">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href ="#">Fish Haven</a></li>
+                    <li><a href ="#">Storm Center</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                    <h2>Preston Idaho</h2>
+                    <picture class="hero_image">
+                        <source media="(max-width: 500px)" srcset="images/500heroimgsmall.jpeg">
+                        <source media="(max-width: 800px)" srcset="images/800heroimgmedium.jpeg">
+                        <source media="(max-width: 1100px)" srcset="images/1100heroimglarge.jpeg">
+                        <img src="images/1100heroimglarge.jpeg" alt="Default_Image">
+                    </picture>
+                <div class="summarydiv">
+                    <section class="summary">
+                    <h2>Weather Summary</h2>
+                    <p>Currently: Partly Cloudy</p>
+                    <p>High: <span id="high">45</span>ºF</p>
+                    <p>Wind Chill: <span id="windc"></span></p>
+                    <p>Humidity: 59%</p>
+                    <p>Wind Speed: <span id="windS">11</span>mph</p>
+                    </section>
+                </div>
+
+                    <div class="forecast">
+                    <h2>5 Day Forecast</h2>
+                    <table>
+                        <tr>
+                            <th>Today</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                            <th>Saturday</th>
+                            <th>Sunday</th>
+                        </tr>
+                        <tr>
+                            <td>45ºF</td>
+                            <td>44ºF</td>
+                            <td>50ºF</td>
+                            <td>57ºF</td>
+                            <td>60ºF</td>
+                        </tr>
+                    </table>
+                    </div>
+
+                    <div class="article">
+                        <h2>Article</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores iusto, itaque<br>
+                            reiciendis soluta unde architecto ad eveniet blanditiis error delectus saepe ratio-<br>
+                            ne libero voluptatum incidunt voluptatibus quo beatae reprehenderit pariatur?<br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae commodi est<br>
+                            ea eius odit ipsa quae consequatur beatae qui id blanditiis, similique placeat sit<br>
+                            totam aperiam illum iure officia iusto? Lorem ipsum dolor sit amet consect-<br>
+                            etur adipisicing elit. Nemo inventore voluptas repellendus maiores eveniet autem<br> nihil unde sunt officiis nobis delectus suscipit libero placeat labore, provident<br> dolores, molestias laborum recusandae? Lorem ipsum dolor, sit amet consectetur<br> adipisicing elit. Optio provident architecto, cum quibusdam alias ab exercitation-<br>
+                            em quo ducimus a, eveniet, dolorem aliquam pariatur fugiat ipsam. Rem soluta hic<br> autem accusantium! Nemo inventore voluptas repellendus maiores eveniet autem<br>
+                            nihil unde sunt officiis nobis delectus suscipit libero placeat labore, provident dolores, molestias laborum recusandae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio provident architecto, cum quibusdam alias ab exercitationem quo ducimus a, eveniet, dolorem aliquam pariatur fugiat ipsam. Rem soluta hic autem accusantium!</p>
+                            <figure class="art_photo">
+                                <img src="images/articleimage.jpg" alt="photographer">
+                                <figcaption>Taking Photo of Landscape</figcaption>
+                            </figure>
+                    </div>
+                
+            </main>
+            <footer>
+                <div class="contact">
+                    <figure class="map_photo">
+                        <img src="images/mapimage.png" alt="google map">
+                        <figcaption>Preston, Idaho</figcaption>
+                    </figure>
+                        
+                        <h2>Contact Information</h2>
+                        <p>Email: weather@hereorthere.net</p>
+                        <p>Phone: (1)800-135-7892</p>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                </div>
+                <div class="footer-info">
+                    &copy;<span id="copyrightyear"></span> Weather Here or There | Andraya L. Goff | Georgia | BYUI Online Learning
+                    <div id="date"></div>
+               </div>
+        </footer>
+    </body>
+</html>

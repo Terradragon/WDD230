@@ -1,0 +1,116 @@
+@media only screen and (min-width: 60em){
+    /*Main Details*/
+    p{
+        text-align: justify;
+        margin: 0.5rem;
+    }
+
+    /*Navigation Bar*/
+    nav button{
+        display: none;
+    }
+
+    nav ul.hide{
+        display: flex;
+        
+    }
+
+    nav ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-left: 2%;
+    }
+    
+    nav ul li{
+        flex: 1 1 100%;
+    }
+
+    nav ul li a{
+        border: none;
+        border-right: 1px solid #D9A408;
+        padding: 0.6rem 1rem;
+    }
+    /*Weather Summary*/
+    .summarydiv{
+        position:absolute;
+        top: 320px;
+        left: 170px;
+    }
+
+    /*5 Day Forecast*/
+    .table, th, td{
+        position: relative;
+        bottom: 5px;
+        left: 390px;
+    }
+
+    /*Article Section*/
+    .article{
+        position:relative;
+        left: 90px;
+        width: 985px;
+        height: 390px;
+    }
+
+    main figure.art_photo{
+        width: 35%;
+        position: relative;
+        bottom: 335px;
+        left: 540px;
+    }
+    /*.article img{
+        position: relative;
+        bottom: 315px;
+        left: 625px;
+        width: 350px;
+        height: auto;
+        align-self:baseline;
+    }*/
+
+
+    /*Contact Section*/
+    .contact{
+        position:relative;
+        top: 5px;
+        left: 90px;
+        width: 985px;
+        height: 350px;
+    }
+
+    footer figure.map_photo{
+        width: 35%;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        margin: 0 0 0 2%;
+    }
+
+    /*.contact img{
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        width: 500px;
+        height: 300px;
+    }*/
+
+    .contact h2{
+        position:relative;
+        bottom: 295px;
+        left: 630px;
+        text-align: left;
+    }
+
+    .contact p{
+        position:relative;
+        bottom: 285px;
+        left: 630px;
+        text-align: left;
+    }
+    
+
+    .fa{
+        position: relative;
+        left: 630px;
+        bottom: 250px;
+    }
+}
