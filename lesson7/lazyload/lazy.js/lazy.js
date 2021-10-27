@@ -1,0 +1,1 @@
+let images = document.querySelector("[data-src]")
