@@ -1,0 +1,266 @@
+/*Basics*/
+body{
+    background-color: #361B35;
+    height: 100vh;
+    /*align-items: center;
+    justify-content: center;*/
+}
+
+/*Banner*/
+.banner__content{
+    /*background: #954B93;*/
+    color: #D9A408;
+    font-family: 'Merriweather', serif;
+    padding: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+}
+
+/*Sections*/
+
+.article{
+    background: radial-gradient(#954B93, #7e3e7c);
+    margin: 1rem;
+    border: #ffff solid 1px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #333;
+    opacity: .9;
+}
+
+.contact{
+    background: radial-gradient(#954B93, #7e3e7c);
+    margin: 1rem;
+    border: #ffff solid 1px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #333;
+    opacity: .9;
+    
+}
+
+/*Header*/
+header{
+    background-color:#D9A408;
+    padding: 5px 0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+/*Navigation Bar*/
+nav button {
+    margin: 0.2rem 2%;
+    font-size: 1.6rem;
+    color:#F7C326;
+    background-color:#361B35;
+    border:none;
+    
+}
+
+nav{
+    background-color: #954B93;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav ul li a{
+    display:block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #F7C326;
+    text-align: center;
+    border-top: 1px solid;
+}
+
+nav ul li.active a{
+    color:white;
+}
+
+nav ul li a:hover{
+    background-color: #361B35;
+}
+
+nav ul.hide{
+    display:none;
+}
+
+ul{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end:0px;
+    padding-inline-start: 40px;
+}
+
+.click{
+    text-align: center;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: auto;
+  }
+
+/*Heading*/
+
+header h1{
+    color:#361B35;
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+    margin-left: 10px;
+}
+
+header h2{
+    color:#361B35;
+    font-family: 'Merriweather', serif;
+    font-size: 0.9rem;
+    margin-left: 5px;
+}
+
+main h2{
+    font-family:'Merriweather', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color:#F7C326;
+}
+
+main p {
+    font-family: 'Raleway', sans-serif;
+    font-size:  1rem;
+    color: #D9A408; 
+    padding: .8rem;
+}
+
+/*Weather Summary*/
+.summarydiv{
+    margin: 10px auto;
+    position: relative;
+    font-size: smaller;
+}
+
+.summary{
+    background: radial-gradient(#954B93, #7e3e7c);
+    border: #ffff solid 1px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #333;
+    opacity: .9;
+}
+
+/*Five Day Forecast*/
+
+.table, th, td{
+    position: relative;
+    left: 40px;
+    height: 100px;
+    width: 80px;
+    border: #fff solid 1px;
+    border-collapse: collapse;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    align-items: center;
+    color: #D9A408;
+}
+/*logo image*/
+header img{
+    width: 80px;
+    height: 100px;
+}
+
+/*hero image*/
+.hero img{
+    width: 485px;
+    height: 150px;
+}
+
+/*article image*/
+.article img{
+    position:relative;
+    right: 10px;
+    bottom: 5px;
+    width: 425px;
+    height: 250px;
+}
+
+/*Contact Information*/
+.contact h2{
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+}
+
+.contact p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+/*footer*/
+.contact img{
+    position: relative;
+    right: 10px;
+    width: 425px;
+    height: 170px;
+}
+footer{
+    background-color: #D9A408;
+    font-family:'Merriweather', serif;
+    color: black;
+    padding: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+/*Social Media Links*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.gallery img{
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+
+/*gallery page*/
+section h1{
+    color:#F7C326;
+    font-family:'Merriweather', serif;
+    text-align: center;
+}

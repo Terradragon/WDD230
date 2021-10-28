@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <title>Gallery</title>
+        <meta name="description" content="Gallery for Weather Website">
+        <!--CSS Links-->
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+        <link href="css/normalize.css" rel="stylesheet">
+        <!--Google Fonts API-->
+         <!--Google Fonts API-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <!--JavaScript Links-->
+        <script defer src="js/menu.js"></script>
+        <script defer src="js/year.js"></script>
+        <script defer src="js/date.js"></script>
+        <script defer src="js/event.js"></script>
+
+    </head>
+    <body onload="banner()">
+        <div class="banner__content">
+            <p id="demo"></p>
+        </div>
+
+            <header>
+                <!--Add Logo and Title-->
+                <div id="event"></div>
+                <img src="images/weathercloudrainbowicon.png" alt="logo">
+                <div class="headings">
+                <h1>Weather Here or There</h1>
+                <h2>Here for You, Wherever You Are</h2>
+                </div>
+            </header>
+
+        <nav class="clearfix">
+                <div class="click"><button onclick="toggleMenu()">&#9776; Menu</button></div>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="#">Home</a></li>
+                    <li ><a href="#">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href ="#">Fish Haven</a></li>
+                    <li><a href ="#">Storm Center</a></li>
+                    <li class="active"><a href="#">Gallery</a></li>
+                </ul>
+            </nav>
+        <section>
+        <h1>Weather Gallery</h1>
+        <div class="gallery">
+       <div><img src="images/placeholder.png" alt="placeholder"></div>
+       <div><img src="images/placeholder.png" alt="placeholder"></div>
+       <div><img src="images/placeholder.png" alt="placeholder"></div>
+       <div><img src="images/placeholder.png" alt="placeholder"></div>
+       <div><img src="images/placeholder.png" alt="placeholder"></div>
+       <div><img src="images/placeholder.png" alt="placeholder"></div>
+       <div><img src="images/placeholder.png" alt="placeholder"></div>
+       <div><img src="images/placeholder.png" alt="placeholder"></div>
+       <div><img src="images/placeholder.png" alt="placeholder"></div>
+        </div>
+        </section>
+       <footer>
+        &copy;<span id="copyrightyear"></span> Weather Here or There | Andraya L. Goff | Georgia | BYUI Online Learning
+        <div id="date"></div>
+       </footer>
+    </body>
+</html>

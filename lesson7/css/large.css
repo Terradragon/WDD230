@@ -1,0 +1,114 @@
+@media only screen and (min-width: 60em){
+
+    nav button{
+        display: none;
+    }
+
+    nav ul.hide{
+        display: flex;
+        
+    }
+
+    nav ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-left: 2%;
+    }
+    
+    nav ul li{
+        flex: 1 1 100%;
+    }
+
+    nav ul li a{
+        border: none;
+        border-right: 1px solid #D9A408;
+        padding: 0.6rem 1rem;
+    }
+
+    p{
+        text-align: justify;
+        margin: 0.5rem;
+    }
+
+    .summarydiv{
+        position:absolute;
+        bottom: 7px;
+        left: 190px; 
+    }
+    .table, th, td{
+        left: 420px;
+    }
+
+    /*sections*/
+
+    .article{
+        position:relative;
+        left: 90px;
+        width: 985px;
+    }
+
+    .contact{
+        position:relative;
+        top: 5px;
+        left: 90px;
+        width: 985px;
+    }
+
+    .contact h2{
+        position:relative;
+        bottom: 5px;
+        left: 630px;
+        text-align: left;
+    }
+
+    .contact p{
+        position:relative;
+        bottom: 5px;
+        left: 630px;
+        text-align: left;
+    }
+/*Images*/
+    .hero img{
+        position:relative;
+        left: 110px;
+        width: 1000px;
+        height: 300px;
+    }
+
+    .article img{
+        position: relative;
+        bottom: 315px;
+        left: 625px;
+        width: 350px;
+        height: auto;
+        align-self:baseline;
+    }
+    .contact img{
+        position: relative;
+        bottom: 120px;
+        left: 20px;
+        width: 500px;
+        height: 300px;
+    }
+/*Table*/
+    .table, th, td{
+        position: relative;
+        bottom: 20px;
+
+    }
+
+    /*Social Media Icons*/
+.fa{
+    position: relative;
+    left: 630px;
+    bottom: 150px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.gallery{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: span 1;
+}
+}
