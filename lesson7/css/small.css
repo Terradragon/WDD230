@@ -251,16 +251,26 @@ footer{
     grid-template-columns: 1fr;
 }
 
-.gallery img{
-    display: block;
-    margin: auto;
-    margin-bottom: 1rem;
-    max-width: 100%;
-}
+
 
 /*gallery page*/
 section h1{
     color:#F7C326;
     font-family:'Merriweather', serif;
     text-align: center;
+}
+
+picture{
+    margin: 10% 0 10% 0;
+}
+
+picture img{
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+
+piccaption{
+    display: none;
 }
