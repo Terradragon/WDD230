@@ -53,13 +53,14 @@
             </nav>
 
             <main>
+                <picture class="hero_image">
+                    <source media="(max-width: 500px)" srcset="images/500heroimgsmall.jpeg">
+                    <source media="(max-width: 800px)" srcset="images/800heroimgmedium.jpeg">
+                    <source media="(max-width: 1100px)" srcset="images/1100heroimglarge.jpeg">
+                    <img src="images/1100heroimglarge.jpeg" alt="Default_Image">
+                </picture>
                     <h2>Preston Idaho</h2>
-                    <picture class="hero_image">
-                        <source media="(max-width: 500px)" srcset="images/500heroimgsmall.jpeg">
-                        <source media="(max-width: 800px)" srcset="images/800heroimgmedium.jpeg">
-                        <source media="(max-width: 1100px)" srcset="images/1100heroimglarge.jpeg">
-                        <img src="images/1100heroimglarge.jpeg" alt="Default_Image">
-                    </picture>
+                   
                 <div class="summarydiv">
                     <section class="summary">
                     <h2>Weather Summary</h2>
@@ -73,6 +74,7 @@
 
                     <div class="forecast">
                     <h2>5 Day Forecast</h2>
+                    <div class="calendar">
                     <table>
                         <tr>
                             <th>Today</th>
@@ -90,39 +92,34 @@
                         </tr>
                     </table>
                     </div>
+                    </div>
 
                     <div class="article">
+                        <figure class="art_photo">
+                            <img src="images/articleimage.jpg" alt="photographer">
+                            <figcaption>Taking Photo of Landscape</figcaption>
+                        </figure>
                         <h2>Article</h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores iusto, itaque<br>
-                            reiciendis soluta unde architecto ad eveniet blanditiis error delectus saepe ratio-<br>
-                            ne libero voluptatum incidunt voluptatibus quo beatae reprehenderit pariatur?<br>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae commodi est<br>
-                            ea eius odit ipsa quae consequatur beatae qui id blanditiis, similique placeat sit<br>
-                            totam aperiam illum iure officia iusto? Lorem ipsum dolor sit amet consect-<br>
-                            etur adipisicing elit. Nemo inventore voluptas repellendus maiores eveniet autem<br> nihil unde sunt officiis nobis delectus suscipit libero placeat labore, provident<br> dolores, molestias laborum recusandae? Lorem ipsum dolor, sit amet consectetur<br> adipisicing elit. Optio provident architecto, cum quibusdam alias ab exercitation-<br>
-                            em quo ducimus a, eveniet, dolorem aliquam pariatur fugiat ipsam. Rem soluta hic<br> autem accusantium! Nemo inventore voluptas repellendus maiores eveniet autem<br>
-                            nihil unde sunt officiis nobis delectus suscipit libero placeat labore, provident dolores, molestias laborum recusandae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio provident architecto, cum quibusdam alias ab exercitationem quo ducimus a, eveniet, dolorem aliquam pariatur fugiat ipsam. Rem soluta hic autem accusantium!</p>
-                            <figure class="art_photo">
-                                <img src="images/articleimage.jpg" alt="photographer">
-                                <figcaption>Taking Photo of Landscape</figcaption>
-                            </figure>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores iusto, itaque reiciendis soluta unde architecto ad eveniet blanditiis error delectus saepe ratione libero voluptatum incidunt voluptatibus quo beatae reprehenderit pariatur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae commodi est ea eius odit ipsa quae consequatur beatae qui id blanditiis, similique placeat sit totam aperiam illum iure officia iusto?Lorem ipsum dolor sit ametconsectetur adipisicing elit. Nemo inventore voluptas repellendus maiores eveniet autem nihil unde sunt officiis nobis delectus suscipit libero placeat labore, provident dolores, molestias laborum recusandae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio provident architecto, cum quibusdam alias ab exercitationem quo ducimus a, eveniet, dolorem aliquam pariatur fugiat ipsam. Rem soluta hic autem accusantium! Nemo inventore voluptas repellendus maiores eveniet autem nihil unde sunt officiis nobis delectus suscipit libero placeat labore, provident dolores, molestias laborum recusandae?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio provident architecto, cum quibusdam alias ab exercitationem quo ducimus a, eveniet, dolorem aliquam pariatur fugiat ipsam. Rem soluta hic autem accusantium!</p>
                     </div>
-                
+                    <div class="contact">
+                        <figure class="map_photo">
+                            <img src="images/mapimage.png" alt="google map">
+                            <figcaption>Preston, Idaho</figcaption>
+                        </figure>
+                            <h2>Contact Information</h2>
+                            <p>Email: weather@hereorthere.net</p>
+                            <p>Phone: (1)800-135-7892</p>
+                            <div>
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-instagram"></a>
+                            </div>
+                    </div>
             </main>
+            
             <footer>
-                <div class="contact">
-                    <figure class="map_photo">
-                        <img src="images/mapimage.png" alt="google map">
-                        <figcaption>Preston, Idaho</figcaption>
-                    </figure>
-                        
-                        <h2>Contact Information</h2>
-                        <p>Email: weather@hereorthere.net</p>
-                        <p>Phone: (1)800-135-7892</p>
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-instagram"></a>
-                </div>
+               
                 <div class="footer-info">
                     &copy;<span id="copyrightyear"></span> Weather Here or There | Andraya L. Goff | Georgia | BYUI Online Learning
                     <div id="date"></div>

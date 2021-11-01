@@ -1,9 +1,4 @@
 @media only screen and (min-width: 60em){
-    /*Main Details*/
-    p{
-        text-align: justify;
-        margin: 0.5rem;
-    }
 
     /*Navigation Bar*/
     nav button{
@@ -30,6 +25,12 @@
         border-right: 1px solid #D9A408;
         padding: 0.6rem 1rem;
     }
+
+    p{
+        text-align: justify;
+        margin: 0.5rem;
+    }
+    
     /*Weather Summary*/
     .summarydiv{
         position:absolute;
@@ -37,26 +38,53 @@
         left: 170px;
     }
 
-    /*5 Day Forecast*/
-    .table, th, td{
-        position: relative;
-        bottom: 5px;
-        left: 390px;
+    .summary{
+        padding: 1.3rem;
     }
 
-    /*Article Section*/
-    .article{
-        position:relative;
-        left: 90px;
-        width: 985px;
-        height: 390px;
+    .summary p{
+        padding: .25rem;
     }
+
+
+    /*Sections*/
+    .hero{
+        width: 1000px;
+        height: 300px;
+        display: block;
+        margin: auto;
+        position: relative;
+    }
+
+    .article{
+        margin: auto;
+        max-width: 985px;
+    }
+
+    .contact{
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        top: 5px;
+        max-width: 960px;
+        height: 305px;
+    }
+
+    .contact h2{
+        bottom: 5px;
+        text-align: left;
+    }
+
+    .contact p{
+       bottom: 5px;
+    }
+
+    /*Images*/
 
     main figure.art_photo{
         width: 35%;
-        position: relative;
-        bottom: 335px;
-        left: 540px;
+        float: right;
+        padding-left: 1rem;
     }
     /*.article img{
         position: relative;
@@ -69,20 +97,12 @@
 
 
     /*Contact Section*/
-    .contact{
-        position:relative;
-        top: 5px;
-        left: 90px;
-        width: 985px;
-        height: 350px;
-    }
 
-    footer figure.map_photo{
-        width: 35%;
-        position: relative;
-        top: 10px;
-        left: 10px;
-        margin: 0 0 0 2%;
+    main figure.map_photo{
+        float: left;
+        padding-right: 1em;
+        width: 500px;
+        height: 300px;
     }
 
     /*.contact img{
@@ -91,26 +111,9 @@
         left: 0px;
         width: 500px;
         height: 300px;
-    }*/
-
-    .contact h2{
-        position:relative;
-        bottom: 295px;
-        left: 630px;
-        text-align: left;
-    }
-
-    .contact p{
-        position:relative;
-        bottom: 285px;
-        left: 630px;
-        text-align: left;
-    }
-    
+    }*/    
 
     .fa{
-        position: relative;
-        left: 630px;
-        bottom: 250px;
+        bottom: 150px;
     }
 }

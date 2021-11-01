@@ -32,75 +32,73 @@
 
     .summarydiv{
         position:absolute;
-        bottom: 7px;
-        left: 190px; 
+        top: 0px;
+        left: 0px; 
     }
-    .table, th, td{
-        left: 420px;
+
+    .summary{
+        padding: 1.3rem;
+    }
+
+    .summary p{
+        padding: .25rem;
     }
 
     /*sections*/
 
+    .hero{
+        width: 1000px;
+        height: 300px;
+        display: block;
+        margin: auto;
+        position: relative;
+    }
+
     .article{
-        position:relative;
-        left: 90px;
-        width: 985px;
+        margin: auto;
+        max-width: 985px;
     }
 
     .contact{
-        position:relative;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
         top: 5px;
-        left: 90px;
-        width: 985px;
+        max-width: 960px;
+        height: 305px;
     }
 
     .contact h2{
-        position:relative;
         bottom: 5px;
-        left: 630px;
         text-align: left;
     }
 
     .contact p{
-        position:relative;
         bottom: 5px;
-        left: 630px;
-        text-align: left;
     }
 /*Images*/
     .hero img{
         position:relative;
-        left: 110px;
+        display: block;
+        margin: auto;
         width: 1000px;
         height: 300px;
     }
 
     .article img{
-        position: relative;
-        bottom: 315px;
-        left: 625px;
+        float:right;
+        padding-left: 1rem;
         width: 350px;
-        height: auto;
-        align-self:baseline;
     }
     .contact img{
-        position: relative;
-        bottom: 120px;
-        left: 20px;
+        float: left;
+        padding-right: 1em;
         width: 500px;
         height: 300px;
-    }
-/*Table*/
-    .table, th, td{
-        position: relative;
-        bottom: 20px;
-
     }
 
     /*Social Media Icons*/
 .fa{
-    position: relative;
-    left: 630px;
     bottom: 150px;
 }
 
