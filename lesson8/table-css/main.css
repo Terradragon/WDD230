@@ -1,0 +1,51 @@
+table,th,td {
+    table-layout: fixed;
+    width: 300px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  #title,tfoot{
+      background-color:#7fb9c2;
+      padding: 15px;
+      text-align: center;
+  }
+  
+  #title{
+    font-size: large;
+  }
+
+  tfoot{
+      font-size: small;
+  }
+  
+  th{
+      background-color:#628ca6;
+  }
+  
+  th, td{
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #period, #sales, #sales-goal{
+    color: white;
+  }
+  
+  .one, .three, .black{
+    background-color: #e7f0ed;
+  }
+  
+  .two, .four, .five{
+    background-color: #e7ffed;
+  }
+  
+  .period-sales-goal-reached{
+    background-color: #628ca6;
+  }
+  
+  #sales-goal-reached{
+    background-color: #628ca6;
+    color: white;
+  }
