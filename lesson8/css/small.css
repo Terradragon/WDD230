@@ -1,31 +1,28 @@
-/*Basics*/
+/*----- Basics --------*/
 body{
     background-color: #361B35;
-    height: 100vh;
-    /*align-items: center;
-    justify-content: center;*/
 }
 
-/*Banner*/
+/*------ Banner --------*/
 .banner__content{
     background: #954B93;
     color: #D9A408;
     font-family: 'Merriweather', serif;
     padding: 16px;
-    max-width: 500px;
     margin: 0 auto;
     display:flex;
     align-items: center;
 }
 
-/*Sections*/
+/*-------- Sections -------*/
 
 .article{
     background: radial-gradient(#954B93, #7e3e7c);
     margin: 1rem;
     border: #ffff solid 1px;
     border-radius: 10px;
-    padding: 1.5rem;
+    padding: 0.7rem;
+    padding-top: 1.5rem;
     box-shadow: 0 0 30px #333;
     opacity: .9;
 }
@@ -41,7 +38,7 @@ body{
     
 }
 
-/*Header*/
+/*--------- Header ----------*/
 header{
     background-color:#D9A408;
     padding: 5px 0;
@@ -50,7 +47,7 @@ header{
     justify-content: center;
 }
 
-/*Navigation Bar*/
+/*------- Navigation Bar --------*/
 nav button {
     margin: 0.2rem 2%;
     font-size: 1.6rem;
@@ -113,7 +110,7 @@ ul{
     margin: auto;
   }
 
-/*Heading*/
+/*------- Heading ---------*/
 
 header h1{
     color:#361B35;
@@ -136,17 +133,16 @@ main h2{
     color:#F7C326;
 }
 
-main p {
+ main p {
     font-family: 'Raleway', sans-serif;
     font-size:  1rem;
     color: #D9A408; 
     padding: .8rem;
 }
 
-/*Weather Summary*/
+/*------ Weather Summary -------*/
 .summarydiv{
-    margin: 10px auto;
-    position: relative;
+    margin: 10px;
     font-size: smaller;
 }
 
@@ -159,42 +155,74 @@ main p {
     opacity: .9;
 }
 
-/*Five Day Forecast*/
+/*----- Five Day Forecast -----*/
 
-.table, th, td{
-    position: relative;
-    left: 40px;
-    height: 100px;
-    width: 80px;
-    border: #fff solid 1px;
+div.forecast{
+    max-width: 1035px;
+    display: block;
+    margin: auto;
+}
+
+div.calendar{
+    margin: 1rem;
+}
+
+table{
+    width: 100%;
     border-collapse: collapse;
     font-family: 'Merriweather', serif;
     text-align: center;
-    align-items: center;
     color: #D9A408;
 }
-/*logo image*/
+
+th, td{
+    border: #fff solid 1px;
+    height: 40px;
+}
+
+/*---- logo image -----*/
 header img{
     width: 80px;
     height: 100px;
 }
 
 /*hero image*/
-.hero img{
-    width: 485px;
-    height: 150px;
+.hero_image{
+    display:block;
+    width: 100%;
+    /*height: 150px;*/
 }
 
+main picture.hero_image img {width: 100%;}
+
 /*article image*/
-.article img{
-    position:relative;
-    right: 10px;
+main figure.art_photo{
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+
+main figure.art_photo img{
+    width: 100%;
     bottom: 5px;
-    width: 425px;
     height: 250px;
 }
 
-/*Contact Information*/
+main figure.art_photo figcaption{
+    text-align: center;
+}
+
+/*.article img{
+    position:relative;
+    right: 20px;
+    bottom: 5px;
+    width: 425px;
+    height: 250px;
+    margin: 0 2%;
+}*/
+
+/*---- Contact Information ----*/
+
 .contact h2{
     font-family: 'Merriweather', serif;
     font-size: 1.5rem;
@@ -205,13 +233,30 @@ header img{
     font-size: 1rem;
 }
 
+main figure.map_photo{
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+
+main figure.map_photo img{
+    width: 100%;
+    height: 170px;
+}
+
+main figure.map_photo figcaption{
+    text-align: center;
+}
+
 /*footer*/
-.contact img{
+/*.contact img{
     position: relative;
     right: 10px;
     width: 425px;
     height: 170px;
-}
+}*/
+
+
 footer{
     background-color: #D9A408;
     font-family:'Merriweather', serif;
@@ -221,7 +266,9 @@ footer{
     text-align: center;
 }
 
-/*Social Media Links*/
+
+
+/*------ Social Media Links ------*/
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -229,6 +276,7 @@ footer{
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+    border-radius: 100%;
 }
 
 .fa-facebook {
@@ -246,14 +294,11 @@ footer{
     color: white;
 }
 
-.gallery{
-    display: grid;
-    grid-template-columns: 1fr;
+.fa:hover {
+    opacity: 0.7;
 }
 
-
-
-/*gallery page*/
+/*--------- Gallery Page ---------*/
 section h1{
     color:#F7C326;
     font-family:'Merriweather', serif;
@@ -273,4 +318,93 @@ picture img{
 
 piccaption{
     display: none;
+}
+
+/*-------- Storm Center ---------*/
+main{
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+main h1{
+    color:#F7C326;
+    font-family:'Merriweather', serif;
+    text-align: center;
+}
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid #954B93;
+    border-radius: 10px;
+    padding: 0.5rem 2%;
+}
+
+form legend{
+    color:#D9A408;
+    font-family:'Raleway', sans-serif;
+    margin: 0.1rem;
+    padding: 0 0.5rem;
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: #D9A408;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+}
+
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px rgb(126, 103, 133);
+    border-radius: 4px;
+    padding: 0.75rem;
+    color:rgb(104, 89, 114);
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs{
+    display: block;
+    padding: 0.75rem 0;
+    color:#D9A408;
+}
+
+.flexly{
+    display: flex;
+    align-items: center;
+    color: #D9A408;
+    font-family: 'Raleway', sans-serif;
+    padding: 0.75rem 0;
+}
+
+#ratingvalue{
+    margin: 0 15px;
+    color:#2075ff;
+}
+
+form textarea{
+    font-family: 'Raleway', sans-serif;
+    font-size: small;
+}
+form input.submitBtn{
+    font-family: 'Raleway', sans-serif;;
+    border:none;
+    background-color: #954B93;
+    color: #F7C326;
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required{
+    border: red solid 3px;
+}
+
+form label.top input:required:valid{
+    border: green solid 3px;
 }
