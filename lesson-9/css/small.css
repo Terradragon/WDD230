@@ -422,19 +422,16 @@ form label.top input:required:valid{
 }
 
 div.cards{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 2em;
-    column-gap: 2em;
+    width: 100%;
     padding: 0.2rem;
-    font-size: 1rem;
+    font-size: 0.1rem;
 }
 
 div.cards section{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    /*justify-content: center;
+    align-items: center;*/
     background: radial-gradient(#954B93, #7e3e7c);
     margin: 1rem;
     border: #ffff solid 1px;
@@ -442,6 +439,10 @@ div.cards section{
     padding: 1.5rem;
     box-shadow: 0 0 30px #333;
     opacity: .9;
+}
+
+div.cards section:nth-child(even){
+    flex-direction: row-reverse;
 }
 
 div.cards img{
