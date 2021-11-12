@@ -1,0 +1,29 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+    /*banner*/
+    .banner{
+        text-align: center;
+    }
+
+    .hero img{
+        /*padding: 10px;*/
+        width: 100%;
+        height: 200px;
+    }
+
+    /*Article Image*/
+    main figure.art_photo{
+        display: block;
+        margin: auto;
+    }
+    /*.article img{
+        position:relative;
+        left: 150px;
+    }*/
+
+    div.cards{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}/*end medium*/
