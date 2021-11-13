@@ -34,10 +34,6 @@
     align-items: center;
     }
 
-    div.cards section:nth-child(even){
-        flex-direction: none;
-    }
-
     div.cards img{
         float: center;
     }

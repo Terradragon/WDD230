@@ -24,7 +24,7 @@ fetch(requestURL)
         yf.textContent = "Year Founded: " + towns[i].yearFounded;
         p.textContent = "Population: " + towns[i].currentPopulation;
         arf.textContent = "Annual Rain Fall: " + towns[i].averageRainfall;
-        photo.setAttribute("src", towns[i].photo);
+        photo.setAttribute("src", "images/" + towns[i].photo);
         photo.setAttribute("alt", towns[i].name);
 
         card.appendChild(h2);
@@ -33,6 +33,7 @@ fetch(requestURL)
         card.appendChild(p);
         card.appendChild(arf);
         card.appendChild(photo);
+
         document.querySelector("div.cards").appendChild(card);
     }
 })
