@@ -59,16 +59,16 @@ fetch(forecastUrl)
                 a = 0;
             }
             if (day == a){
-                dayOfTheWeek = weekName[a];
+                dayOfWeek = weekName[a];
             }
         })
-        day.innerHTML = dayOfTheWeek;
+        day.innerHTML = dayOfWeek;
         a += 1;
     })
 
     const forecastImage = document.querySelectorAll(".forecast-image");
 
-
+    //Forecast Temperatures
     const fTemp = document.querySelectorAll(".ftemp");
     let b = 0;
 
@@ -76,7 +76,7 @@ fetch(forecastUrl)
         let itemDT = new Date(item.dt_txt);
         let now = itemDT.getHours();
 
-        if(now == 18){
+        if(now = 18){
             //Weather for Five Day Forecast
             let fiveDayWeather = fahrenheit(jsObject.list[a].main.temp);
             fTemp[b].innerHTML = `${fiveDayWeather}&deg;F`;
