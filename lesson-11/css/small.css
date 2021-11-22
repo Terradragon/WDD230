@@ -1,0 +1,521 @@
+/*----- Basics --------*/
+body{
+    background-color: #361B35;
+}
+
+/*------ Banner --------*/
+.banner__content{
+    background: #954B93;
+    color: #D9A408;
+    font-family: 'Merriweather', serif;
+    padding: 16px;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+}
+
+/*-------- Sections -------*/
+
+.article{
+    background: radial-gradient(#954B93, #7e3e7c);
+    margin: 1rem;
+    border: #ffff solid 1px;
+    border-radius: 10px;
+    padding: 0.7rem;
+    padding-top: 1.5rem;
+    box-shadow: 0 0 30px #333;
+    opacity: .9;
+}
+
+.contact{
+    background: radial-gradient(#954B93, #7e3e7c);
+    margin: 1rem;
+    border: #ffff solid 1px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #333;
+    opacity: .9;
+    
+}
+
+/*--------- Header ----------*/
+header{
+    background-color:#D9A408;
+    padding: 5px 0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+/*------- Navigation Bar --------*/
+nav button {
+    margin: 0.2rem 2%;
+    font-size: 1.6rem;
+    color:#F7C326;
+    background-color:#361B35;
+    border:none;
+    
+}
+
+nav{
+    background-color: #954B93;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav ul li a{
+    display:block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #F7C326;
+    text-align: center;
+    border-top: 1px solid;
+}
+
+nav ul li.active a{
+    color:white;
+}
+
+nav ul li a:hover{
+    background-color: #361B35;
+}
+
+nav ul.hide{
+    display:none;
+}
+
+ul{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end:0px;
+    padding-inline-start: 40px;
+}
+
+.click{
+    text-align: center;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: auto;
+  }
+
+/*------- Heading ---------*/
+
+header h1{
+    color:#361B35;
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+    margin-left: 10px;
+}
+
+header h2{
+    color:#361B35;
+    font-family: 'Merriweather', serif;
+    font-size: 0.9rem;
+    margin-left: 5px;
+}
+
+main h2{
+    font-family:'Merriweather', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color:#F7C326;
+}
+
+ main p {
+    font-family: 'Raleway', sans-serif;
+    font-size:  1rem;
+    color: #D9A408; 
+    padding: .8rem;
+}
+
+/*------ Weather Summary -------*/
+.summarydiv{
+    margin: 10px;
+    font-size: smaller;
+}
+
+.summary{
+    background: radial-gradient(#954B93, #7e3e7c);
+    border: #ffff solid 1px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #333;
+    opacity: .9;
+}
+
+/*----- Five Day Forecast -----*/
+
+div.forecast{
+    max-width: 1035px;
+    display: block;
+    margin: auto;
+}
+
+div.calendar{
+    margin: 1rem;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    color: #D9A408;
+}
+
+th, td{
+    border: #fff solid 1px;
+    height: 40px;
+}
+
+td{
+    padding-bottom: 1rem;
+}
+
+/*---- logo image -----*/
+header img{
+    width: 80px;
+    height: 100px;
+}
+
+/*--- hero image -----*/
+.hero img{
+    width: 100%;
+    height: 150px;
+}
+
+/*main picture.hero_image img {width: 100%;}*/
+
+/*article image*/
+main figure.art_photo{
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+
+main figure.art_photo img{
+    width: 100%;
+    bottom: 5px;
+    height: 250px;
+}
+
+main figure.art_photo figcaption{
+    text-align: center;
+}
+
+/*.article img{
+    position:relative;
+    right: 20px;
+    bottom: 5px;
+    width: 425px;
+    height: 250px;
+    margin: 0 2%;
+}*/
+
+/*---- Contact Information ----*/
+
+.contact h2{
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+}
+
+.contact p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+main figure.map_photo{
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+
+main figure.map_photo img{
+    width: 100%;
+    height: 170px;
+}
+
+main figure.map_photo figcaption{
+    text-align: center;
+}
+
+/*footer*/
+/*.contact img{
+    position: relative;
+    right: 10px;
+    width: 425px;
+    height: 170px;
+}*/
+
+
+footer{
+    background-color: #D9A408;
+    font-family:'Merriweather', serif;
+    color: black;
+    padding: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+
+
+/*------ Social Media Links ------*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 100%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/*--------- Gallery Page ---------*/
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/*gallery page*/
+section h1{
+    color:#F7C326;
+    font-family:'Merriweather', serif;
+    text-align: center;
+}
+
+picture{
+    margin: 10% 0 10% 0;
+}
+
+picture img{
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+
+piccaption{
+    display: none;
+}
+
+/*-------- Storm Center ---------*/
+main{
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+main h1{
+    color:#F7C326;
+    font-family:'Merriweather', serif;
+    text-align: center;
+}
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid #954B93;
+    border-radius: 10px;
+    padding: 0.5rem 2%;
+}
+
+form legend{
+    color:#D9A408;
+    font-family:'Raleway', sans-serif;
+    margin: 0.1rem;
+    padding: 0 0.5rem;
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: #D9A408;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+}
+
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px rgb(126, 103, 133);
+    border-radius: 4px;
+    padding: 0.75rem;
+    color:rgb(104, 89, 114);
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs{
+    display: block;
+    padding: 0.75rem 0;
+    color:#D9A408;
+}
+
+.flexly{
+    display: flex;
+    align-items: center;
+    color: #D9A408;
+    font-family: 'Raleway', sans-serif;
+    padding: 0.75rem 0;
+}
+
+#ratingvalue{
+    margin: 0 15px;
+    color:#2075ff;
+}
+
+form textarea{
+    font-family: 'Raleway', sans-serif;
+    font-size: small;
+}
+form input.submitBtn{
+    font-family: 'Raleway', sans-serif;
+    border:none;
+    background-color: #954B93;
+    color: #F7C326;
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required{
+    border: red solid 3px;
+}
+
+form label.top input:required:valid{
+    border: green solid 3px;
+}
+
+/*------- Home Page Cards --------*/
+
+.cards h2{
+    font-family:'Merriweather', serif;
+    font-size: 1.5rem;
+    color: #F7C326; 
+}
+.cards h3{
+    font-family:'Merriweather',serif;
+    font-size: 0.7rem;
+    color:#F7C326;
+}
+
+.cards p{
+    font-size: 0.9rem;
+}
+
+div.cards{
+    width: 100%;
+    padding: 0.2rem;
+    font-size: 0.1rem;
+}
+
+div.cards section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(#954B93, #7e3e7c);
+    margin: 1rem;
+    border: #ffff solid 1px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #333;
+    opacity: .9;
+}
+
+div.cards section:nth-child(odd) img{
+    grid-column: 2;
+    grid-gap: 0.5rem;
+
+}
+div.cards section:nth-child(odd) h2{
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    grid-gap: 0.5rem;
+
+}
+
+div.cards section:nth-child(odd) h3{
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+    grid-gap: 1rem;
+}
+
+div.cards section:nth-child(odd) p{
+    grid-column: 1;
+    grid-row: 3, 4, 5;
+    text-align: center;
+    grid-gap: 1rem;
+}
+div.cards section:nth-child(even) img{
+    grid-column: 1;
+}
+
+div.cards section:nth-child(even) h2{
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    grid-gap: 1rem;
+
+}
+
+div.cards section:nth-child(even) h3{
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    grid-gap: 1rem;
+
+}
+
+div.cards section:nth-child(even) p{
+    grid-column: 2;
+    grid-row: 3, 4, 5;
+    text-align: center;
+    grid-gap: 1rem;
+
+}
+
+div.cards img{
+    margin: 1rem;
+    float: left;
+}
+
+section img{
+    width: 100%;
+    border: 1px solid #361B35;
+    border-radius: 5px;
+}
