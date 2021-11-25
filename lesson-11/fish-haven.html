@@ -19,13 +19,11 @@
     <script defer src="js/event.js"></script>
     <script defer src="js/menu.js"></script>
     <script defer src="js/storage.js"></script>
-    <script defer src="js/preston-data.js"></script>
-    <script defer src="js/preston-weather.js"></script>
+    <script defer src="js/fish-haven-data.js"></script>
+    <script defer src="js/fish-haven-weather.js"></script>
     <script defer src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script defer src="js/windchill.js"></script>
     <script defer src="js/year.js"></script>
-    
-    
     <!--Social Media Link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
@@ -38,7 +36,7 @@
             <header>
                 <!--Add Logo and Title-->
                 <div id="event"></div>
-                <img src="images/weathercloudrainbowicon.png" alt="site logo">
+                <img src="images/weathercloudrainbowicon.png" alt="site logo"   >
                 <div class="headings">
                 <h1>Weather Here or There</h1>
                 <h2>Here for You, Wherever You Are</h2>
@@ -50,23 +48,23 @@
                 <div class="click"><button onclick="toggleMenu()">&#9776; Menu</button></div>
                 <ul id="primaryNav" class="hide">
                     <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="#">Preston</a></li>
+                    <li><a href="preston.html">Preston</a></li>
                     <li><a href="soda-springs.html">Soda Springs</a></li>
-                    <li><a href ="fish-haven.html">Fish Haven</a></li>
+                    <li class="active"><a href ="#">Fish Haven</a></li>
                     <li><a href ="stormcenter.html">Storm Center</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                 </ul>
             </nav>
 
             <main>
-                <h2>Preston Idaho</h2>
-                <picture class="hero_image">
-                    <source media ="(max-width: 500px)" srcset="images/500prestonheroimgsmall.jpg">
-                    <source media ="(max-width: 800px)" srcset="images/800prestonheroimgmedium.jpg">
-                    <source media ="(max-width: 1200px)" srcset="images/1200prestonheroimglarge.jpg">
-                    <img src="images/1200prestonheroimglarge.jpg" alt="Default_Image">
-                </picture>
-
+                <h2>Fish Haven</h2>
+                    <picture class="hero_image">
+                        <source media ="(max-width: 500px)" srcset="images/500fishhavenheroimgsmall.jpg">
+                        <source media ="(max-width: 800px)" srcset="images/800fishhavenheroimgmedium.jpg">
+                        <source media ="(max-width: 1200px)" srcset="images/1200fishhavenheroimglarge.jpg">
+                        <img src="images/1200fishhavenheroimglarge.jpg" alt="Default_Image">
+                    </picture>
+                    
                    
                 <div class="summarydiv">
                     <section class="summary">
@@ -77,6 +75,7 @@
                     <p><span id="humid"></span></p>
                     <p><span id="windS"></span></p>
                     </section>
+                </div>
                 </div>
 
                     <div class="forecast">
@@ -116,7 +115,7 @@
                     </table>
                     </div>
                     </div>
-                    <div class="preston-card">
+                    <div class="fish-haven-card">
                         <div class="event-info"></div>
                     </div>
 
@@ -129,7 +128,6 @@
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores iusto, itaque reiciendis soluta unde architecto ad eveniet blanditiis error delectus saepe ratione libero voluptatum incidunt voluptatibus quo beatae reprehenderit pariatur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae commodi est ea eius odit ipsa quae consequatur beatae qui id blanditiis, similique placeat sit totam aperiam illum iure officia iusto?Lorem ipsum dolor sit ametconsectetur adipisicing elit. Nemo inventore voluptas repellendus maiores eveniet autem nihil unde sunt officiis nobis delectus suscipit libero placeat labore, provident dolores, molestias laborum recusandae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio provident architecto, cum quibusdam alias ab exercitationem quo ducimus a, eveniet, dolorem aliquam pariatur fugiat ipsam. Rem soluta hic autem accusantium! Nemo inventore voluptas repellendus maiores eveniet autem nihil unde sunt officiis nobis delectus suscipit libero placeat labore, provident dolores, molestias laborum recusandae?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio provident architecto, cum quibusdam alias ab exercitationem quo ducimus a, eveniet, dolorem aliquam pariatur fugiat ipsam. Rem soluta hic autem accusantium!</p>
                     </div>
                     <div class="contact">
-                        
                         <figure class="map_photo">
                             <img src="images/mapimage.png" alt="google map">
                             <figcaption>Preston, Idaho</figcaption>
@@ -146,6 +144,7 @@
             </main>
             
             <footer>
+               
                 <div class="footer-info">
                     &copy;<span id="copyrightyear"></span> Weather Here or There | Andraya L. Goff | Georgia | BYUI Online Learning
                     <div id="date"></div>

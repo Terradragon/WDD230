@@ -16,8 +16,8 @@ fetch(requestURL)
         let yf = document.createElement("p");
         let p = document.createElement("p");
         let arf = document.createElement("p");
-        let firstCol = document.createElement("column1");
-        let secCol = document.createElement("column2");
+        let FirstCol = document.createElement("Column1");
+        let SecCol = document.createElement("Column2");
         let photo = document.createElement("img");
 
 
@@ -29,14 +29,14 @@ fetch(requestURL)
         photo.setAttribute("src", "images/" + towns[i].photo);
         photo.setAttribute("alt", towns[i].name);
 
-        card.appendChild(firstCol);
-        card.appendChild(secCol);
-        firstCol.appendChild(h2);
-        firstCol.appendChild(m);
-        firstCol.appendChild(yf);
-        firstCol.appendChild(p);
-        firstCol.appendChild(arf);
-        secCol.appendChild(photo);
+        card.appendChild(FirstCol);
+        card.appendChild(SecCol);
+        FirstCol.appendChild(h2);
+        FirstCol.appendChild(m);
+        FirstCol.appendChild(yf);
+        FirstCol.appendChild(p);
+        FirstCol.appendChild(arf);
+        SecCol.appendChild(photo);
 
         document.querySelector("div.cards").appendChild(card);
     }

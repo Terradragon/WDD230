@@ -7,11 +7,16 @@
     }
 
     .hero img{
-        /*padding: 10px;*/
         width: 100%;
         height: 200px;
     }
 
+    /*----5 Day Forecast----*/
+    div.forecast{
+        max-width: 1035px;
+        display: block;
+        margin: auto;
+    }
     td{
         padding-bottom: 1.5rem;
     }
@@ -21,30 +26,24 @@
         display: block;
         margin: auto;
     }
-    /*.article img{
-        position:relative;
-        left: 150px;
-    }*/
 
+    /*-----Homepage Cards-----*/
     div.cards{
         display:grid;
         grid-template-columns: 1fr 1fr;
     }
 
     div.cards section{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
+        display: block;
     }
 
-    div.cards img{
-        float: center;
-    }
+    /*----Gallery----*/
 
     .gallery{
         grid-template-columns: 1fr 1fr;
         gap: normal 20px;
     }
+
+    /*----Event Cards----*/
     
 }/*end medium*/
