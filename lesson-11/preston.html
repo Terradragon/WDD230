@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>WeatherHereorThere | Preston Town Page</title>
     <meta name="description" content="Preston Town Weather Page">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="favicon.ico">
     <!--CSS Links-->
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/small.css" rel="stylesheet">
@@ -60,12 +62,11 @@
 
             <main>
                 <h2>Preston Idaho</h2>
-                <picture class="hero_image">
+                <div class="hero">
                     <source media ="(max-width: 500px)" srcset="images/500prestonheroimgsmall.jpg">
                     <source media ="(max-width: 800px)" srcset="images/800prestonheroimgmedium.jpg">
                     <source media ="(max-width: 1200px)" srcset="images/1200prestonheroimglarge.jpg">
                     <img src="images/1200prestonheroimglarge.jpg" alt="Default_Image">
-                </picture>
 
                    
                 <div class="summarydiv">
@@ -77,6 +78,7 @@
                     <p><span id="humid"></span></p>
                     <p><span id="windS"></span></p>
                     </section>
+                </div>
                 </div>
 
                     <div class="forecast">
@@ -137,11 +139,9 @@
                         <h2>Contact Information</h2>
                             <p>Email: weather@hereorthere.net</p>
                             <p>Phone: (1)800-135-7892</p>
-                            <div>
                                 <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
                                 <a href="https://twitter.com/" class="fa fa-twitter"></a>
                                 <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
-                            </div>
                     </div>
             </main>
             

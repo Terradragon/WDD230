@@ -190,11 +190,9 @@ header img{
 
 /*--- hero image -----*/
 .hero img{
-    display: block;
+    display: relative;
     width: 100%;
 }
-
-main picture.hero_image img {width: 100%;}
 
 /*article image*/
 main figure.art_photo{
