@@ -1,0 +1,19 @@
+{
+    "company": [
+        {
+        "name": "Tip Top Poultry",
+        "logo": "tiptoppoultrylogo.png",
+        "purpose": "Tip Top Poultry desires to honor God in how we run our business, serve our customers, treat our employees, and relate to our vendors."
+        },
+        {
+            "name": "Spectrum Packaging Network",
+            "logo": "spectrumpagingnetworklogo.png",
+            "purpose": "With the strength of knowledge and expertise, the combination of both companies (Pak – Pro and the former Color Spectrum Network) is a giant step forward to better serve our customers to grow in their markets and achieve our mutual goals." 
+        },
+        {
+            "name": "Georgia Roof Advisors",
+            "logo": "georgiaroofadvisorslogo.png",
+            "purpose": "With hundreds of very satisfied clients in Mareitta and the surrounding cities and countries, Georgia Roof Advisors continues to serve our neighbors with honesty and integrity"  
+        }
+    ]
+}

@@ -1,0 +1,302 @@
+/*-------Basics-------*/
+body{
+    background-color: rgb(36,63,79);
+    font-family: "Scope One", serif;
+}
+
+
+main h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(225,236,244);
+}
+
+main h2{
+    text-align: center;
+}
+
+p{
+    color: rgb(13,10,7);
+}
+
+/*----Logo Image------*/
+nav img{
+    width: 170px;
+    height: auto;
+    /*margin-top: 0.1rem;
+    padding-top: 10px;*/
+}
+/*------ Navigation Bar ------*/
+nav button{
+    margin: 0.2rem 2%;
+    font-size: 1.6rem;
+    background-color: rgb(113,60,17);
+    color: rgb(225,236,244);
+    border:none;
+}
+
+nav{
+    
+    font-size:1.5rem;
+    /*margin-top: -10rem;
+    padding: 5rem;*/
+}
+
+nav ul{
+    list-style-type: none;
+    background-color:rgb(113,60,17);
+}
+
+nav ul li a{
+    display:block;
+    padding: 0.8rem 2%;
+    text-decoration: none;
+    color:rgb(225,236,244);
+    text-align: center;
+    /*border-top: 1px solid;*/
+}
+
+nav ul li.active a{
+    color: rgb(13,10,7);
+}
+
+nav ul li a:hover{
+    background-color:rgb(185, 123, 72);
+}
+
+nav ul.hide{
+    display:none;
+}
+
+ul{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.click{
+    text-align: center;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: auto;
+  }
+
+  /*----Hero Image---*/
+  .hero img{
+      display: relative;
+      width: 100%;
+      padding-top: 1rem;
+  }
+  /*---Home Weather Summary---*/
+
+  section.bottom_info{
+      display: grid;
+      grid-template-columns: 1fr;
+      margin: 1rem;
+      font-size: smaller;
+  }
+
+  .current{
+      background-color: rgb(191,104,54);
+      border: 1px solid rgb(186, 196, 202);
+      padding: 1.5rem;
+  }
+
+  .current h2{
+      text-align: center;
+  }
+  /*---Home Forecast---*/
+  
+  .forecast{
+      display:none;
+      
+  }
+
+  .forecast h2{
+      text-align: center;
+  }
+  .calendar{
+      margin: 1rem;
+  }
+
+  table{
+      width: 100%;
+      border-collapse: collapse;
+      background-color: rgb(191,104,54);
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      
+  }
+
+  th, td{
+      border: 1px solid rgb(186, 196, 202);
+      height: 40px;
+  }
+
+  td{
+      padding-bottom: 1rem;
+  }
+
+/*----Footer----*/
+footer{
+    background-color: rgb(0,89,140);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+footer p{
+    font-family: "Scope One", serif;
+}
+
+/*--- Social Media Links ---*/
+.fa {
+    padding: 5px;
+    font-size: 5px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px 0 10px;
+    border-radius: 100%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-twitter {
+    background: #4184b8;
+    color: white;
+}
+
+.fa-instagram {
+    background: #0c395a;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/*--- Join Page ---*/
+main{
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+main h1{
+    text-align: center;
+}
+
+
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid rgb(225,236,244);
+    border-radius: 10px;
+    padding: 0.5 2%;
+}
+
+form legend{
+    color: rgb(13,10,7);
+    margin: 0.1rem;
+    padding: 0 0.5rem;
+}
+
+
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px rgb(186, 196, 202);
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: rgb(154, 163, 168);
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs{
+    display: block;
+    padding: 0.75rem 0;
+    color:rgb(12,10,7);
+}
+
+
+form textarea{
+    font-size: small;
+}
+
+form input.submitBtn{
+    font-family: 'Scope One', serif;
+    border:none;
+    background-color: rgb(225,236,244);
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0 0.5rem 2%;
+    max-width: 20rem;
+}
+
+form label.top input:required{
+    border: red solid 3px;
+}
+
+form label.top input:required:valid{
+    border:green solid 3px;
+}
+
+/*---City Content---*/
+.content{
+    background-color:rgb(191,104,54);
+    margin: 0.5rem;
+}
+
+.content h2, p{
+    color:rgb(46,28,15);
+}
+
+.content p{
+    padding: 2rem;
+}
+
+.content img{
+    width: 100%;
+    display:block;
+    margin: auto;
+}
+
+/*--Contact Footer---*/
+footer figure.map_photo img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+footer figure.map_photo figcaption{
+    text-align: center;
+    font-family: 'Scope One', serif;
+    size: smaller;
+}
+
+.contact h2, p{
+    padding-left: 1rem;
+}
+
+.info{
+        padding-top: 1.5rem;
+        /*padding-left: 2rem;*/
+        text-align: center;
+    }
+    
+#date{
+        padding-bottom: 1.5rem;
+        /*padding-left: 1.5rem;*/
+        text-align: center;
+    }

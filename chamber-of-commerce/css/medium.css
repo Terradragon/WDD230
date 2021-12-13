@@ -1,0 +1,27 @@
+@media only screen and (min-width: 35rem){
+    /*---City Content---*/
+
+.content img{
+    display: block;
+    margin: auto;
+}
+
+/*----3 Day Forecast----*/
+div.forecast{
+    max-width: 1035px;
+    display: block;
+    margin: auto;
+}
+
+td{
+    padding-bottom: 1.5rem;
+}
+
+/*----Footer Content---*/
+
+footer figure.map_photo img{
+    display: block;
+    margin: auto;
+}
+}
+
