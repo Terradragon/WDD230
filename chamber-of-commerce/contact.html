@@ -25,59 +25,32 @@
 
     <body>
         <header>
-            <nav class="clearfix">
-                <img src="images/chamberofcommercelogo.png" alt="logo">
+            <nav class="clearfix"> 
+                <img src="images/chamberofcommercelogo.png" alt="logo"> 
             <div class="click"><button onclick="toggleMenu()">&#9776; Menu</button></div>
             <ul id="primaryNav" class="hide">
                 <!--Navigation List-->
                 <li><a href="index.html">Home</a></li>
                 <li><a href="marietta.html">Marietta</a></li>
-                <li class="active"><a href="#">Join Us!</a></li>
+                <li><a href="join.html">Join Us!</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li class="active"><a href="#">Contact Us</a></li>
             </ul>
         </nav>
+           
         </header>
-       
-        <!---Join Application!-->
+        
+        <!----Contact Info---->
         <main>
 
-            <h1>Marietta Membership Application</h1>
+            <h1>Contact Information</h1>
             <form method="get" action="thanks.html">
-                <section>
-                <fieldset>
-                    <legend>Personal Information</legend>
-                    <label class="top">First Name*<input type="text" name="firstname" pattern="[A-Za-z].{5,}" required></label>
-                    <label class="top">Last Name*<input type="text" name="lastname" pattern="[A-Za-z].{1,}" required></label>
-                    <label class="top">Title<input type="text" name="title" pattern="[A-Za-z].{5,}"></label>
-                    <label class="top">Email<input type="email" name="email" placeholder="commerce@gmail.com"></label>
-                    <label class="top">Cell Phone*<input type="tel" name="phone" placeholder="1234446892" required></label>
-                </fieldset>
-                </section>
-
-                <section>
-                <fieldset>
-                    <legend>Business Information</legend>
-                    <label class="top">Business Name*<input type="text" name="businessname" pattern="[A-Za-z].{5,}" required></label>
-                    <label class="top">Business Address<input type="text" name="businessaddress" pattern="[A-Za-z}.{5,}"></label>
-                    <label class="top">Business Description</label>
+                    <fieldset>
+                        <label class="top">First Name*<input type="text" name="firstname" pattern="[A-Za-z].{5,}" required></label>
+                        <label class="top">Last Name*<input type="text" name="lastname" pattern="[A-Za-z].{1,}" required></label>
+                        <label class="top">Questions or Concerns</label>
                     <label><textarea rows="10" cols="50" placeholder="type here..."></textarea></label>
-                </fieldset>
-                </section>
-
-                <section>
-                <fieldset>
-                    <legend>Membership Selection</legend>
-                    <label class="sbs"><input type="radio" name="membership" value="non-profit"> Non-profit ($100)</label>
-                    <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze ($200)</label>
-                    <label class="sbs"><input type="radio" name="membership" value="silver"> Silver ($400)</label>
-                    <label class="sbs"><input type="radio" name="membership" value="gold"> Gold ($1,000)</label>
-                </fieldset>
-                </section>
-
-                <section>
-                <input type="submit" value="Join" class="submitBtn">
-                </section>
+                    </fieldset>
             </form>
         </main>
         <footer>

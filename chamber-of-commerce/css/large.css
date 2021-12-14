@@ -59,17 +59,11 @@
 
     /*----Footer Content---*/
     footer figure.map_photo{
-       width: 23%;
+       width: 20%;
        float: right;
-       margin: 7rem 0.25rem 0 0;
+       margin: 2.5rem 1rem 0 0;
        padding-right: 0.5rem;
       /* padding-top: 9rem;*/
-    }
-
-    .contact h2{
-        text-align: center;
-        /*margin: 1rem;
-        padding-bottom: 1rem;*/
     }
 
     .contact p{
