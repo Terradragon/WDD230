@@ -32,7 +32,7 @@ fetch(requestURL)
 
 const requesturl = "https://raw.githubusercontent.com/Terradragon/wdd230/master/chamber-of-commerce/json/events.json"
 
-fetch(requesrurl)
+fetch(requesturl)
 .then(function(response){
     return response.json();
 })
@@ -41,9 +41,16 @@ fetch(requesrurl)
     const events = jsObject["events"]
     for(let j = 0; j < events.length; j++){
         let card = document.createElement("section");
-        let h2 = document.createElement("h2");
-        let div = document.createElement("div");
+        let m = document.createElement("h2");
+        let t = document.createElement("p");
+        
+        m.textContent = events[j].month;
+        t.textContent = events[j].title;
 
+        card.appendChild(m);
+        card.appendChild(t);
+
+        document.querySelector(".cards_events").appendChild(card);
        
     }
 })

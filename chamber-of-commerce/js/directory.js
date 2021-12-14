@@ -5,13 +5,16 @@ fetch(requestURL)
     return response.json();
 })
 
-.then(function(jsonObject){
-    const directory = (jsonObject)["directory"];
+.then(function(jsObject){
+    const directory = jsObject["directory"]
     for(let i = 0; i < directory.length; i++){
-        let card = document.createElement("section");
-        let list = document.createElement("ul");
-        for(let i of data){ let item = document.createElement("li");list.appendChild(item)}
 
-        document.querySelector("directory-info").appendChild(list);
+                   document.getElementById("directory-table").innerHTML = `<tr>
+                   <td>${directory[i].name}</td>
+                   <td>${directory[i].owner}</td>
+                   <td>${directory[i].address}</td>
+                   <td>${directory[i].phone}</td>
+                   <td>${directory[i].membersince}</td>
+                  </tr>`
     }
 })
