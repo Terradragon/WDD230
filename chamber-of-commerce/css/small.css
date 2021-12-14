@@ -56,7 +56,7 @@ div.cards_companies section{
     justify-content: center;
     align-items: center;
     background-color: rgb(191,104,54);
-    margin: 1rem;
+    margin: .5rem 2rem 1rem 1rem;
     border: rgb(186, 196, 202) solid 1px; 
 }
 
@@ -75,7 +75,7 @@ div.cards_companies img{
 }
 
 section img{
-    width: 35%;
+    width: 85%;
 }
 
 /*------ Navigation Bar ------*/

@@ -1,7 +1,15 @@
-{  "events":[
-    "December 14: ServSafe Training and Certification - December",
-    "December 15: Women's Chamber December Luncheon",
-    "December 16: The 2021 Century Bank of Georgia Business After Hours Series: Hosted by Pritchard Injury Firm",
-    "December 17: Handel's Messiah"
+{  "events":[{
+    "month":"December 14",
+    "title":"ServSafe Training and Certification - December"
+},
+   { "month":"December 15",
+    "title": "Women's Chamber December Luncheon"
+},
+    {
+        "month":"December 16",
+        "title": "The 2021 Century Bank of Georgia Business After Hours Series: Hosted by Pritchard Injury Firm"},
+        {
+            "month": "December 17",
+            "title": "Handel's Messiah"}
     ]
 }
