@@ -1,5 +1,4 @@
 const requestURL = "https://raw.githubusercontent.com/Terradragon/wdd230/master/chamber-of-commerce/json/homedata.json"
-
 fetch(requestURL)
 .then(function(response){
     return response.json();

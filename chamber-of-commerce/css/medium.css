@@ -6,6 +6,16 @@
     margin: auto;
 }
 
+/*----Homepage Cards---*/
+div.cards_companies{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.cards_companies section{
+    display: block;
+}
+
 /*----3 Day Forecast----*/
 div.forecast{
     max-width: 1035px;

@@ -23,6 +23,12 @@
        /* border-right: 1px solid;*/
     }
 
+    /*--- Homepage Cards---*/
+    div.cards_companies{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
     /*----City Content----*/
     .content img{
         float:left;
