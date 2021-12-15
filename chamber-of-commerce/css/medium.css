@@ -16,6 +16,7 @@ div.cards_companies section{
     display: block;
 }
 
+
 /*----3 Day Forecast----*/
 div.forecast{
     max-width: 1035px;
@@ -27,11 +28,18 @@ td{
     padding-bottom: 1.5rem;
 }
 
+/*---Directory Cards----*/
+
+.directory-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 /*----Footer Content---*/
 
-footer figure.map_photo img{
+/*footer figure.map_photo img{
     display: block;
     margin: auto;
-}
+}*/
 }
 

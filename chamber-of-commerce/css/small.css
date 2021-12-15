@@ -18,12 +18,21 @@ p{
     color: rgb(13,10,7);
 }
 
+p a:hover{
+    background-color: rgb(185, 123, 72);
+}
+
+/*---Header---*/
+
+header{
+    margin: 0;
+    display: flex;
+}
+
 /*----Logo Image------*/
-nav img{
-    width: 170px;
+header img{
+    width: 100px;
     height: auto;
-    /*margin-top: 0.1rem;
-    padding-top: 10px;*/
 }
 
 /*----Homepage Company Cards----*/
@@ -33,7 +42,7 @@ nav img{
     font-size: 1rem;
     color: rgb(46,28,15);
     text-align: center;
-    margin-bottom: -.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .cards_companies p{
@@ -71,11 +80,11 @@ div.cards_companies section:nth-child(odd) column1{
 }
 
 div.cards_companies img{
-    margin: 1rem;
+    margin: 4rem 0 1rem 1rem;
 }
 
 section img{
-    width: 85%;
+    width: 75%;
 }
 
 /*----Homepage Events Cards-----*/
@@ -95,6 +104,7 @@ section img{
 .cards_events p{
     color: rgb(13,10,7);
     font-size: 0.75rem;
+    margin: 0.5rem;
 }
 
 
@@ -110,13 +120,11 @@ nav button{
 nav{
     
     font-size:1.5rem;
-    /*margin-top: -10rem;
-    padding: 5rem;*/
+    background-color:rgb(113,60,17);
 }
 
 nav ul{
     list-style-type: none;
-    background-color:rgb(113,60,17);
 }
 
 nav ul li a{
@@ -125,7 +133,10 @@ nav ul li a{
     text-decoration: none;
     color:rgb(225,236,244);
     text-align: center;
-    /*border-top: 1px solid;*/
+    /*margin-top: -19.5rem;
+    margin-bottom: 1rem;
+    padding: 3rem;*/
+
 }
 
 nav ul li.active a{
@@ -135,7 +146,6 @@ nav ul li.active a{
 nav ul li a:hover{
     background-color:rgb(185, 123, 72);
 }
-
 nav ul.hide{
     display:none;
 }
@@ -277,10 +287,15 @@ form fieldset{
     padding: 0.5 2%;
 }
 
+
 form legend{
-    color: rgb(13,10,7);
+    color: rgb(225,236,244);
     margin: 0.1rem;
     padding: 0 0.5rem;
+}
+
+form label{
+    color: rgb(225,236,244);
 }
 
 
@@ -296,6 +311,10 @@ form label.top input, form label.top select{
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
 }
+
+/*form label.top, form input.text, form input.email, form input.phone{
+    margin-top: 3rem;
+}*/
 
 form label.sbs{
     display: block;
@@ -346,11 +365,33 @@ form label.top input:required:valid{
     margin: auto;
 }
 
+/*----Directory---*/
+
+.directory-card{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+    column-gap: 2em;
+    padding: 0.2rem;
+    font-size: 1rem;
+}
+
+.directory-card section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(191,104,54);
+    border: 1px solid rgb(186, 196, 202);
+    box-shadow: 0 0 30px #333;
+    opacity: .9px;
+} 
+
 /*--Contact Footer---*/
 footer figure.map_photo img{
     width: 100%;
-    display: block;
-    margin: auto;
+    /*display: block;*/
+    margin: 1rem 0 0 0;
 }
 
 footer figure.map_photo figcaption{

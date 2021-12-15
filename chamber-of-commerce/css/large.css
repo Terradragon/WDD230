@@ -11,7 +11,7 @@
     nav ul{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin-left: 2%;
+        margin-left: 5%;
     }
 
     nav ul li{
@@ -37,15 +37,17 @@
     }
 
     /*---Join Page---*/
-    form, section{
+    form{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-column: span 1;
-        grid-gap: 1rem;
+        /*grid-column: span 1;*/
+        grid-gap: 5rem;
         margin-left: 2%;
+    }
+
+    form, section{
         grid-column: 1;
         grid-row: 1;
-        column-span: 2;
     }
 
     form, section:nth-child(2){
@@ -59,10 +61,17 @@
     }
 
     form, section:nth-child(4){
-        grid-column: 2;
+        grid-column: 1;
         grid-row: 3;
     }
 
+
+    /*----Directory Cards----*/
+    .directory-card{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
     /*----Footer Content---*/
     footer figure.map_photo{
        width: 20%;
